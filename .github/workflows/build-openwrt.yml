@@ -8,10 +8,8 @@
 
 name: Build OpenWrt
 # Add a button to trigger the workflow
-on: 
-  repository_dispatch:
-  workflow_dispatch:
 on:
+  workflow_dispatch:
   repository_dispatch:
   release:
     types: published
